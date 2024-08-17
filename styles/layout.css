@@ -1,0 +1,41 @@
+/*
+
+Author: Matthew Larsen
+Date: 08/15/2024
+SDEV 106
+File: layout.css 
+
+*/
+
+body {
+  width: 1200px;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "logo logo vertical"
+    "horizontal horizontal horizontal"
+    "main main main"
+    "main main main"
+    "foot foot foot";
+}
+
+#logo {
+  grid-area: logo;
+}
+
+.vertical {
+  grid-area: vertical;
+}
+
+.horizontal {
+  grid-area: horizontal;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: foot;
+}

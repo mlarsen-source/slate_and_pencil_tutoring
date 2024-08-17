@@ -1,0 +1,78 @@
+/*
+
+Author: Matthew Larsen
+Date: 08/15/2024
+SDEV 106
+File: styles.css 
+
+*/
+html {
+  background-color: rgb(233, 201, 111);
+}
+
+#logo {
+  width: 100%;
+}
+
+.vertical {
+  font-size: 18px;
+  background-color: rgb(112, 154, 222);
+  padding: 10px;
+}
+
+nav.vertical ul {
+  list-style-type: none;
+}
+
+nav.vertical li {
+  padding: 10px;
+}
+
+nav.horizontal {
+  font-size: 18px;
+  text-decoration: none;
+  background-color: rgb(25, 0, 45);
+}
+
+.row {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+main {
+  background-color: rgb(245, 245, 220);
+}
+
+footer {
+  color: white;
+  font-size: 18px;
+  background-color: rgb(25, 0, 45);
+  padding: 10px;
+  text-align: center;
+}
+
+/* Link Styles */
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline white;
+}
+a:active {
+  background-color: black;
+  font-style: italic;
+}
